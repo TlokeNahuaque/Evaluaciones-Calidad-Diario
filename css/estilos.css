@@ -37,8 +37,49 @@ body {
 	padding: 30px;
 }
 
+.contenedor-2 {
+	width: 90%;
+	max-width: 800px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+	background: #fff;
+	min-height: 60vh;
+	margin-top: 25px;
+	margin-bottom: 35px;
+	display: grid;
+}
+
 .columna-derecha {
-	background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuHZLNszfW0wE0iEYPuAYxW2vUDxlfD-MrPc4hpsxmOjgyGbCaXmodIWUvbfryAnVNF7ot1jTtmRfuEnHNcfze6dJEMeOw8pzfU8glKCPT7rNX472kuZPADUoZ8aGFhA9TO0e_FFwH_RjD_L8Ga8VPFAC48_4GZi9a5JXwTFKpKS9ncdR1e5LrDss1EQ/s16000/P%C3%A1gina%20Evaluaciones%20UCS%20-%20Loggin%20(ok).png");
+	background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEh3CoMMi449Qx17Zx7IC-xdGme9teTz-KPdO4KYFhwQOY-uMke7E7kyizks6x78zWLI6zK-aYg21ctYr3YRDfYJ6dHQhvCKRoz39Mtult6XFet5HmtFlYGugAlh2QNSvBDdI21CZXQyCjtqzcunc7QUKflNi9XLe5xlGZydCm7YnuhfOLx9LrnoWoHeUg=w400-h374");
+	background-size: cover;
+	background-position-x: center;
+	
+}
+
+.columna-derechaTel {
+	background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEgUrz-okJJ0_DRBhvBv6qF_MUhfeqHgmzXH5scsFSFvmBrquM4_BE2cFi4E2OnTuWJIppoLZ60V8CvoKIey-1BEtt-gkUS_6TUgusXv7EMF4AWMIBkZ4O99jKjJkzymhIekvAiG3e2M1HKw4tlSIAaG8HpxqcRSUVvqBKYO2AtmDDxQC7Fu119CaffHWQ=s16000");
+	background-size: cover;
+	background-position-x: right;
+	
+}
+
+.columna-derechaAsis {
+	background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEifdsMH7k9G38xi7b35K6rEkYNsPPSI6GKB86BvYofSPr3J6tGf3OxQ-wSzPTdMW0xR_LzmCEm7Gh_haFlGW1gdg7IuFQfpB5nTTo-IXJRBzC1TdaI7-ycBEhzda58URRB2In94HLA6AMjDDP3yC5uvqOIg5rqGK-mYqVvIDYoZ0Z0W8mtKesOdqUralw=w400-h374");
+	background-size: cover;
+	background-position-x: left;
+	
+}
+
+.columna-derechaDig {
+	background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEg_4bHkptzItRLs21GzKUm76xGnOMMPlkiqdVnyyO3vvUqHTenAEate4x2SGwPKa7NM3FRhrJfOgkBEsV1p1MAlQpLQwGuEU3blAEHqb_PAS1psaI4IyPJgY7ji8wokPIgTBxo7CgmEDyr4IjG5CBhxmuZVncNp2df85E2G-1yEqqR1A3yb1d3VdHZ4yA=w400-h374");
+	background-size: cover;
+	background-position-x: center;
+	
+}
+
+.columna-derechaVis {
+	background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEgH_QAsPYI2NM5u3J8suty4vslya6ZXODzvddwOGmblPgyEpjN4VV3ycpxHejIiwVAGqEboI8jcQ0NLP094fq5LEzYLyFpal23_uAQ7_NC3KlQ5b-jEZpikivheKyslHbsV6edk6F5t6frqsvdJf2r7FBb-qS0bTJ5JnLi-yi7v9DoLPhdn4fCo0MapUg=w400-h374");
 	background-size: cover;
 	background-position-x: center;
 	
@@ -65,8 +106,14 @@ label {
 	font-size: 14px;
 }
 
+.contenedor-input-fecha {
+	position: relative;
+	width: 40%;
+}
+
 .contenedor-input {
 	position: relative;
+	width: 65px;
 }
 
 .registro {
@@ -117,6 +164,7 @@ input {
 input:focus {
 	outline: none;
 	border: 2px solid var(--primario);
+	
 }
 
 .contenedor-input svg {
