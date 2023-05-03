@@ -14,11 +14,14 @@ formulario.addEventListener('submit', async (e) => {
         body: JSON.stringify({
 
             "Fecha": formulario.fecha.value,
-            "BGR_F": formulario.BGR_F.value,
+            "BGR_AP": formulario.BGR_AP.value,
+            "BGR_AI": formulario.BGR_AI.value,
             "BGR_L": formulario.BGR_L.value,
-            "LMMR_F": formulario.LMMR_F.value,
+            "LMMR_AP": formulario.LMMR_AP.value,
+            "LMMR_AI": formulario.LMMR_AI.value,
             "LMMR_L": formulario.LMMR_L.value,
-            "TSA_F": formulario.TSA_F.value,
+            "TSA_AP": formulario.TSA_AP.value,
+            "TSA_AI": formulario.TSA_AI.value,
             "TSA_L": formulario.TSA_L.value,
             "GGME_C": formulario.GGME_C.value,
             "GGME_S": formulario.GGME_S.value,
