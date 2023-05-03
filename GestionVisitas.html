@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">  
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>Registro de evaluaciones</title>
+</head>
+
+<body>
+	<div class="contenedor">
+		<div class="columna-izquierda">
+			<div class="registro activo" id="registro">
+				<div class="header">
+					<h1>Gestión de Visitas</h1>
+				</div>
+		
+				<form class="formulario" id="formulario">
+					
+					<div class="contenedor-formulario">
+						<label for="fecha">Fecha</label><label style="color:Red">*</label>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						<div class="contenedor-input-fecha">
+							<input type="date" id="fecha" name="fecha" required>
+						</div>
+					</div>
+		
+
+					<br><p style="text-align: end;color: #013E6A; font-weight: 1000;">Folios&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p><br>
+					
+					<!-- Inicia Asistencia Integral -->
+					<div hidden class="contenedor-formulario" >
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="BGR_F" name="BGR_F" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="BGR_L" name="BGR_L" placeholder="">
+						</div>
+					</div>
+
+					<div hidden class="contenedor-formulario">
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="LMMR_F" name="LMMR_F" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="LMMR_L" name="LMMR_L" placeholder="">
+						</div>
+					</div>
+
+					<div hidden class="contenedor-formulario">
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="TSA_F" name="TSA_F" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="TSA_L" name="TSA_L" placeholder="">
+						</div>
+					</div>
+					<!-- Termina Asistencia Integral -->
+
+
+
+					<!-- Inicia Atención Digital -->
+					<div hidden class="contenedor-formulario">
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="GGME_C" name="GGME_C" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="GGME_S" name="GGME_S" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="GGME_MP" name="GGME_MP" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="GGME_w" name="GGME_W" placeholder="">
+						</div>
+					</div>
+
+					<div hidden class="contenedor-formulario">
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="MLJ_C" name="MLJ_C" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="MLJ_S" name="MLJ_S" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="MLJ_MP" name="MLJ_MP" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="MLJ_W" name="MLJ_W" placeholder="">
+						</div>
+					</div>
+
+					<div hidden class="contenedor-formulario">
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="SCN_C" name="SCN_C" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="SCN_S" name="SCN_S" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="SCN_MP" name="SCN_MP" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="SCN_W" name="SCN_W" placeholder="">
+						</div>
+					</div>
+					
+					<div hidden class="contenedor-formulario">
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="VCAR_C" name="VCAR_C" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="VCAR_S" name="VCAR_S" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="VCAR_MP" name="VCAR_MP" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="VCAR_W" name="VCAR_W" placeholder="">
+						</div>
+					</div>
+					<!-- Termina Atención Digital -->
+
+					
+					<!-- Inicia Atención Telefónica -->
+					<div hidden class="contenedor-formulario">
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="JSJ_F" name="JSJ_F" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="JSJ_L" name="JSJ_L" placeholder="">
+						</div>
+					</div>
+
+					<div hidden class="contenedor-formulario">
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="LGMS_F" name="LGMS_F" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="LGMS_L" name="LGMS_L" placeholder="">
+						</div>
+					</div>
+
+					<div hidden class="contenedor-formulario">
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="MEDJ_F" name="MEDJ_F" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="MEDJ_L" name="MEDJ_L" placeholder="">
+						</div>
+					</div>
+
+					<div hidden class="contenedor-formulario">
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="MCLM_F" name="MCLM_F" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="MCLM_L" name="MCLM_L" placeholder="">
+						</div>
+					</div>
+
+					<div hidden class="contenedor-formulario">
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="MGCO_F" name="MGCO_F" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="MGCO_L" name="MGCO_L" placeholder="">
+						</div>
+					</div>
+
+					<div hidden class="contenedor-formulario">
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="ORDV_F" name="ORDV_F" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="ORDV_L" name="ORDV_L" placeholder="">
+						</div>
+					</div>
+
+					<div hidden class="contenedor-formulario">
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="QGI_F" name="QGI_F" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="QGI_L" name="QGI_L" placeholder="">
+						</div>
+					</div>
+
+					<div hidden class="contenedor-formulario">
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="QRMM_F" name="QRMM_F" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="QRMM_L" name="QRMM_L" placeholder="">
+						</div>
+					</div>
+
+					<div hidden class="contenedor-formulario">
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="RVLL_F" name="RVLL_F" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="RVLL_L" name="RVLL_L" placeholder="">
+						</div>
+					</div>
+
+					<div hidden class="contenedor-formulario">
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="SGLG_F" name="SGLG_F" placeholder="">
+						</div>
+						<div hidden class="contenedor-input">
+							<input hidden type="number" id="SGLG_L" name="SGLG_L" placeholder="">
+						</div>
+					</div>
+					<!-- Termina Atención Telefónica -->
+
+
+					<!-- Inicia Gestión de Visitas -->
+					<div class="contenedor-formulario">
+						<label for="CNI">Cigarroa Nicoletti Ivy</label>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						<div class="contenedor-input">
+							<input type="number" id="CNI" name="CNI" placeholder="">
+						</div>
+					</div>
+
+					<div class="contenedor-formulario">
+						<label for="RFMA">Rocha Fuentes María Angélica</label>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						<div class="contenedor-input">
+							<input type="number" id="RFMA" name="RFMA" placeholder="">
+						</div>
+					</div>
+
+					<div class="contenedor-formulario">
+						<label for="VEMG">Vertíz Estrada María Graciela</label>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						<div class="contenedor-input">
+							<input type="number" id="VEMG" name="VEMG" placeholder="">
+						</div>
+					</div>
+					<!-- Termina Gestión de Visitas -->
+					
+					<script>
+						function cambia_de_pagina(){
+						  setTimeout("location.href='Registro.html';",1500);
+						}
+					  </script>
+
+					
+					<div class="contenedor-boton">
+						<button type="submit" onclick="javascript:cambia_de_pagina();">
+							Registrar
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+								<path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+							</svg>
+						</button>
+					</div>
+
+				</form>
+			</div>
+
+			
+		</div>
+
+		<div class="columna-derechaVis">
+
+		</div>
+	</div>
+
+	<script src="js/app.js"></script>
+</body>
+</html>
