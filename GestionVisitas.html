@@ -15,22 +15,13 @@
 	<div class="contenedor">
 		<div class="columna-izquierda">
 			<div class="registro activo" id="registro">
-				<div class="header">
+				<div class="header-1">
 					<h1>Gestión de Visitas</h1>
 				</div>
 		
 				<form class="formulario" id="formulario">
 					
-					<div class="contenedor-formulario">
-						<label for="fecha">Fecha</label><label style="color:Red">*</label>
-						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-						<div class="contenedor-input-fecha">
-							<input type="date" id="fecha" name="fecha" required>
-						</div>
-					</div>
-		
-
-					<br><p style="text-align: end;color: #013E6A; font-weight: 1000;">Folios&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p><br>
+					<p style="text-align: end;color: #013E6A; font-weight: 1000;">Folios&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p><br>
 					
 					<!-- Inicia Asistencia Integral -->
 					<div hidden class="contenedor-formulario" >
@@ -134,7 +125,7 @@
 					</div>
 					<!-- Termina Atención Digital -->
 
-					
+
 					
 					<!-- Inicia Atención Telefónica -->
 					<div hidden class="contenedor-formulario">
@@ -254,6 +245,18 @@
 						</div>
 					</div>
 					<!-- Termina Gestión de Visitas -->
+
+
+
+					<br><div class="contenedor-formulario">
+						<label for="fecha">Fecha evaluación</label><label style="color:Red">*</label>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						<div class="contenedor-input-fecha">
+							<input type="date" id="fecha" name="fecha" required>
+						</div>
+					</div>
+
+
 					
 					<script>
 						function cambia_de_pagina(){
@@ -262,7 +265,7 @@
 					  </script>
 
 					
-					<div class="contenedor-boton">
+					<br><div class="contenedor-boton">
 						<button type="submit" onclick="javascript:cambia_de_pagina();">
 							Registrar
 							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">

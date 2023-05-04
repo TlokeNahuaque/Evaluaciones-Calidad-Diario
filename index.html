@@ -21,40 +21,70 @@
 					<h1>Registro de Evaluaciones Calidad</h1>
 				</div>
 		
-				<div class="contenedor-boton">
-					<button>
-						<a style="font-size: 1em;color:#013E6A" href="AsistenciaIntegral.html">
-							<i style="font-size: 1.5em;color:#013E6A" class="fa-solid fa-hand-holding-heart">&nbsp&nbsp</i>Asistencia Integral
-						</a>
-					</button>
-				</div>
-				 
-				<div class="contenedor-boton">
-					<button>
-					   <a style="font-size: 1em;color:#013E6A" href="AsistenciaTelefonica.html">
-						   <i style="font-size: 1.5em;color:#013E6A" class="fa-solid fa-phone">&nbsp&nbsp</i>Asistencia Telefónica
-					   </a>
-					</button>
-				</div>
+				
+				<!-- boton Asistencia Integral -->
+				<script>
+					function cambia_de_pagina1(){
+					  setTimeout("location.href='AsistenciaIntegral.html';",50);
+					}
+				</script>
 
 				<div class="contenedor-boton">
-					<button>
-					   <a style="font-size: 1em;color:#013E6A" href="AtencionDigital.html">
-						   <i style="font-size: 1.5em;color:#013E6A" class="fa-solid fa-envelopes-bulk">&nbsp&nbsp</i>Atención Digital
-					   </a>
+					<button type="submit" onclick="javascript:cambia_de_pagina1();">
+						<i style="font-size: 1.5em;color:#013E6A" class="fa-solid fa-hand-holding-heart"></i>&nbsp&nbspAsistencia Integral
 					</button>
 				</div>
+				<!-- Termina -->
+
+
+				<!-- boton Asistencia Telefónica -->
+				<script>
+					function cambia_de_pagina2(){
+					  setTimeout("location.href='AsistenciaTelefonica.html';",50);
+					}
+				</script>
 
 				<div class="contenedor-boton">
-					<button>
-					   <a style="font-size: 1em;color:#013E6A" href="GestionVisitas.html">
-						   <i style="font-size: 1.5em;color:#013E6A" class="fa-solid fa-user-shield">&nbsp&nbsp</i>Gestión de Visitas
-					   </a>
+					<button type="submit" onclick="javascript:cambia_de_pagina2();">
+						<i style="font-size: 1.5em;color:#013E6A" class="fa-solid fa-phone"></i>&nbsp&nbsp Asistencia Telefónica
 					</button>
-				</div><br>
+				</div>
+				<!-- Termina -->
+
+
+
+				<!-- boton Atención Digital -->
+				<script>
+					function cambia_de_pagina3(){
+					  setTimeout("location.href='AtencionDigital.html';",50);
+					}
+				</script>
+
+				<div class="contenedor-boton">
+					<button type="submit" onclick="javascript:cambia_de_pagina3();">
+						<i style="font-size: 1.5em;color:#013E6A" class="fa-solid fa-envelopes-bulk"></i>&nbsp&nbsp Atención Digital
+					</button>
+				</div>
+				<!-- Termina -->
+
 
 				
 
+				<!-- boton Gestión de Visitas -->
+				<script>
+					function cambia_de_pagina4(){
+					  setTimeout("location.href='GestionVisitas.html';",50);
+					}
+				</script>
+
+				<div class="contenedor-boton">
+					<button type="submit" onclick="javascript:cambia_de_pagina4();">
+						<i style="font-size: 1.5em;color:#013E6A" class="fa-solid fa-user-shield"></i>&nbsp&nbsp Gestion de Visitas
+					</button>
+				</div>
+				<!-- Termina -->
+
+				
 			</div>
 
 		</div>
