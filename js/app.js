@@ -27,7 +27,7 @@ formulario.addEventListener('submit', async (e) => {
             "CI_S": formulario.CI_S.value,
             "CI_MP": formulario.CI_MP.value,
             "CI_W": formulario.CI_W.value,
-            "GMME_C": formulario.GGME_C.value,
+            "GGME_C": formulario.GGME_C.value,
             "GGME_S": formulario.GGME_S.value,
             "GGME_MP": formulario.GGME_MP.value,
             "GGME_W": formulario.GGME_W.value,
